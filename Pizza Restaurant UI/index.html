@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Delicious cheesy pizzas that make you crave for more!">
+    <title>Pizza Restaurant</title>
+    <link rel="icon" href="./stack/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <div class="logo">Pizza Restaurant</div>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="#aboutus">ABOUT US</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#carousel">CAROUSEL</a></li>
+                    <li><a href="#menu">TESTIMONY</a></li>
+                    <li><a href="#findus">FIND US</a></li>
+                    <li><a href="#aboutus">OUR TEAM</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons" aria-label="Social links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT / HERO -->
+    <main>
+        <section class="hero">
+            <div class="overlay">
+                <div class="hero-text">
+                    <h1>Craving for a<br>chessy pizza?</h1>
+                    <div class="underline"></div>
+                    <p>
+                        Pizza is an Italian food that was created in the Naples area,
+                        Southern Italy. It is made with different toppings.most common
+                        toppings are mozzarella (a kind of cheese), sausages, pepperoni,
+                        vegetables, tomatoes, spices 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT US SECTION -->
+        <section class="about-us">
+            <h2 id="aboutus">ABOUT US</h2>
+            <div class="title-underline"></div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="text-underline"></div>
+                    <p>
+                        Pizza is a popular Italian dish consisting of a flattened bread dough base topped with various
+                        ingredients, most commonly tomato sauce, cheese, and various toppings like vegetables, meats,
+                        and spices. It's typically baked in an oven and served hot.There are countless variations of pizza,
+                        from classic Neapolitan to deep-dish Chicago-style, and regional specialties worldwide. Many 
+                        restaurants offer a variety of specialty pizzas with unique combinations of sauces, cheeses, 
+                        and toppings. 
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="./stack/img2.jpg" alt="Making pizza dough">
+                </div>
+            </div>
+        </section>
+
+        <!-- MENU SECTION -->
+        <section class="menu">
+            <h2 id="menu">MENU</h2>
+            <div class="title-underline"></div>
+            <p class="menu-intro">
+                Explore the wide range of pizza baked in fresh dough and vegetables. Our pizza will tempt all 
+                your excitement and senses. Made with a delicate balance of everything cheesy and spicy, you 
+                will get to savour the best pizza in town.
+            </p>
+
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="./stack/img1.jpg" alt="Pizza">
+                    <div class="menu-text">
+                        <h3>Pizza Margherita</h3>
+                        <p>Pizza Margherita, also known as Margherita pizza, is, together with the pizza marinara, Neapolitan pizza.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="./stack/img2.jpg" alt="Pizza">
+                    <div class="menu-text">
+                        <h3>Farmhouse</h3>
+                        <p>Farmhouse pizza is a type of traditional, rustic pizza made with natural ingredients that are usually local to specific areas</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="./stack/img3.jpg" alt="Pizza">
+                    <div class="menu-text">
+                        <h3>Peppy Paneer</h3>
+                        <p>The peppy paneer pizza is made with fresh and soft paneer with crispy capsicum and topped with spicy red pepper</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="./stack/img4.jpg" alt="Pizza">
+                    <div class="menu-text">
+                        <h3>Veg Extravaganza</h3>
+                        <p>The "Veg Extravaganza" pizza at Domino's is a vegetarian option loaded with a variety of toppings.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="./stack/img5.jpg" alt="Pizza">
+                    <div class="menu-text">
+                        <h3>Indi Tandoori Paneer</h3>
+                        <p>It is hot. It is spicy. It is oh-so-Indian. Tandoori paneer with capsicum I red paprika I mint mayo.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="./stack/img6.jpg" alt="Pizza">
+                    <div class="menu-text">
+                        <h3>Cheese and Corn</h3>
+                        <p>A simple combination of cheese and corn. bite into Cheesy Delight of Golden Corn & Gooey Mozzarella Cheese.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Carousel Section -->
+
+        <section id="carousel" class="carousel-section text-center">
+            <h2 class="carousel-title">Carousel</h2>
+            <div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
+                
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="4"></button>
+                </div>
+
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./stackimg1.jpg" class="d-block mx-auto carousel-img" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./stack/img2.jpg" class="d-block mx-auto carousel-img" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./stack/img3.jpg" class="d-block mx-auto carousel-img" alt="Slide 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="./stack/img4.jpg" class="d-block mx-auto carousel-img" alt="Slide 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="./stack/img5.jpg" class="d-block mx-auto carousel-img" alt="Slide 5">
+                </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#customCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+       
+        <!-- Gallery Section -->
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <div class="underline"></div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item big">
+                    <img src="./stack/img1.jpg" alt="Pizza">
+                </div>
+                <div class="gallery-item">
+                    <img src="./stack/img2.jpg" alt="Pizza">
+                </div>
+                <div class="gallery-item">
+                    <img src="./stack/img3.jpg" alt="Pizza">
+                </div>
+                <div class="gallery-item">
+                    <img src="./stack/img4.jpg" alt="Salad">
+                </div>
+                <div class="gallery-item">
+                    <img src="./stack/img5.jpg" alt="Garlic Bread">
+                </div>
+                <div class="gallery-item">
+                    <img src="./stack/img6.jpg" alt="Milkshake">
+                </div>
+                <div class="gallery-item">
+                    <img src="./stack/img9.jpg" alt="Milkshake">
+                </div>
+            </div>
+        </section>
+
+        <!-- FIND US Section -->
+        <section class="find-us">
+            <h2 id="findus">FIND US</h2>
+            <div class="underline"></div>
+
+            <div class="find-us-container">
+                <!-- Left Info -->
+                <div class="find-us-info">
+                    <p>This concept allows for a mix-and-match approach to pizza enjoyment, catering to diverse preferences within a single order. </p>
+                    <div class="contact-detail">
+                        <img src="./stack/locationlogo.jpg" alt="Location Icon">
+                        <span>Location ABC Apartment, XYZ Colony, Delhi</span>
+                    </div>
+                    <div class="contact-detail">
+                        <img src="./stack/calllogo.jpg" alt="Phone Icon">
+                        <span>123-456-789</span>
+                    </div>
+                    <div class="contact-detail">
+                        <img src="./stack/email.png" alt="Phone Icon">
+                        <span>pizza@gmail.com</span>
+                    </div>
+                </div>
+
+                
+                <div class="find-us-map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.83920016917!2d77.06889983716859!3d28.527280343098624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd2a2f10f9cf%3A0xf1c8d314aaf8d8a2!2sDelhi!5e0!3m2!1sen!2sin!4v1682520470815!5m2!1sen!2sin" 
+                        width="100%" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-container">
+                
+                <div class="footer-left">
+                    <img src="./stack/dilivry.avif" alt="Delivery Icon">
+                </div>
+
+                
+                <div class="footer-right">
+                    <div class="footer-detail">
+                        <img src="./stack/email.png" alt="Email Icon">
+                        <span>pizza@gmail.com</span>
+                    </div>
+                    <div class="footer-detail">
+                        <img src="./stack/calllogo.jpg" alt="Phone Icon">
+                        <span>123-456-789</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
